@@ -5,7 +5,7 @@ public class Main {
 		System.out.println("Maximum number is " + maximumNum);
 	}
 
-	public static int calculateMaximum(int... list) {
+	private static int calculateMaximum(int... list) {
 		int max = 0;
 		for (int num : list) {
 			if (max < num)
